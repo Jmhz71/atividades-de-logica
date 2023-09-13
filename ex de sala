@@ -1,0 +1,46 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/09/2023
+Var
+// Seção de Declarações das variáveis 
+media:real
+nota1:real
+nota2:real
+conceito:caracter
+nome:caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite seu nome")
+leia(nome)
+escreval("digite sua primeira nota")
+leia(nota1)
+escreval("digite sua segunda nota")
+leia(nota2)
+
+   media <- nota1 + nota2 /2
+   
+se(nota1 > 9) entao
+escreva(" seu conceito é A, e você foi aprovado")
+senao
+escreva ("reprovado")
+fimse
+
+se (nota1 >= 7.5) entao
+fimse
+
+se (nota1 >= 6) entao
+fimse
+
+se (nota1 >= 4)entao
+fimse
+
+se (nota1 < 4) entao
+fimse
+
+
+
+Fimalgoritmo
