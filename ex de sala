@@ -9,7 +9,6 @@ Var
 media:real
 nota1:real
 nota2:real
-conceito:caracter
 nome:caracter
 
 Inicio
@@ -22,6 +21,8 @@ escreval("digite sua segunda nota")
 leia(nota2)
 
    media <- nota1 + nota2 /2
+
+limpatela
    
 se(nota1 > 9) entao
 escreva(" seu conceito é A, e você foi aprovado")
