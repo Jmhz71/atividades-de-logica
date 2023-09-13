@@ -48,6 +48,7 @@ caso 5
 escreval ("codigo 5")
 escreval ("Prato: Pão com ovo")
 escreval ("Preço: R$ 5,00")
-
+outrocaso
+escreval ("codigo invalido")
 fimescolha
 Fimalgoritmo
